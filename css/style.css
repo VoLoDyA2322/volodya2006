@@ -1,0 +1,53 @@
+.container{
+	width: 1000px;
+	height: 800px;
+	position: relative;
+	
+	left: 700px;
+	top: 200px;
+
+}
+.big{
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	background: blue;
+	left: 100px;
+	top: 0px;
+	animation: jump 0.7s linear;
+ 	
+	border-radius: 50%;
+	
+}
+.big2{
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	background: blue;
+	left: 200px;
+	top: 0px;
+	animation: jump 0.7s linear 0.7s ;
+	border-radius: 50%;
+	
+	
+}
+
+.big3{
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	background: blue;
+	left: 300px;
+	top: 0px;
+	animation: jump 0.7s linear 1.4s;
+	border-radius: 50%;
+
+
+}
+@keyframes jump{
+	0%{opacity: 0.5;}
+	99.9%{transform: scale(1.4);}
+	99.99%{transform: scale(1);}
+	100%{opacity: 1;}
+	
+}
